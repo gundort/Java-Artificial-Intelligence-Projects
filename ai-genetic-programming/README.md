@@ -1,6 +1,3 @@
-AI – Genetic Programming (ai-genetic-programming/README.md)
-
-markdown
 # Arithmetic Genetic Programming (Breast Cancer Classification)
 
 A symbolic regression system using Genetic Programming (GP). The program evolves arithmetic expression trees to classify breast cancer cases based on the Wisconsin Breast Cancer dataset. It uses a population of expression trees, applies crossover, mutation, and parsimony pressure, and tunes the classification threshold to maximise F-measure.
