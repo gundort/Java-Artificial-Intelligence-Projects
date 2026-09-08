@@ -1,6 +1,6 @@
-# Java AI Practicals – COS 314
+# Java AI Projects
 
-A collection of Artificial Intelligence assignments from my COS 314 module. All projects are written in pure Java and focus on classification using the Wisconsin Breast Cancer dataset.
+A collection of Artificial Intelligence assignments. All projects are written in pure Java and focus on classification using the Wisconsin Breast Cancer dataset.
 
 ## Projects
 
