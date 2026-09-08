@@ -1,6 +1,3 @@
-## AI – Decision Tree (`ai-decision-tree/README.md`)
-
-```markdown
 # Decision Tree Classifier (Breast Cancer)
 
 A custom implementation of a decision tree classifier using the gain ratio splitting criterion and class-weighted entropy to handle class imbalance. The tree is built with a random feature subspace (a form of random forest inspiration) and includes pruning via depth and sample size limits.
@@ -96,7 +93,7 @@ TESTING RESULTS
 =========================
 Accuracy  : 0.8876
 ...
-File Structure
+# File Structure
 
 text
 ai-decision-tree/
@@ -104,7 +101,7 @@ ai-decision-tree/
 ├── Breast_train.csv        # Example training data
 ├── Breast_test.csv         # Example testing data
 └── README.md               # This file
-Notes / Caveats
+## Notes / Caveats
 
 The tree uses gain ratio to select the best split, which avoids bias towards multi-valued features.
 Class weights are computed as inverse frequencies to balance the training set.
@@ -112,7 +109,7 @@ The tree stops splitting when the node is pure, depth reaches maxDepth, or the s
 The feature subspace size is sqrt(numFeatures) – a common random forest trick to increase diversity.
 The tree is not pruned after building; early stopping is used instead.
 The default minSamplesSplit is 25, which may be high for a small dataset; this is configurable in the source code.
-License
+## License
 
 MIT – free to use for learning or reference.
 
