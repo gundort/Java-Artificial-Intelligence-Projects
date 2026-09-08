@@ -112,27 +112,3 @@ The default minSamplesSplit is 25, which may be high for a small dataset; this i
 ## License
 
 MIT – free to use for learning or reference.
-
-text
-
----
-
-## Summary of What to Copy
-
-| Folder | File to Create | Content to Paste |
-|--------|----------------|------------------|
-| `ai-genetic-programming/` | `README.md` | First README (Genetic Programming) |
-| `ai-decision-tree/` | `README.md` | Second README (Decision Tree) |
-
----
-
-## Quick Guide – How to Create These on GitHub
-
-1. Go to your AI repo: `https://github.com/YOUR_USERNAME/Java-AI-Pracs`
-2. Tap the folder you want to add the README to (e.g., `ai-genetic-programming`)
-3. Tap **"Add file"** → **"Create new file"**
-4. In the filename box, type `README.md`
-5. Paste the corresponding README content
-6. Tap **"Commit new file"**
-
-Repeat for the second project.
